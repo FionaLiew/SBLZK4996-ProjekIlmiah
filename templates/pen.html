@@ -1,0 +1,112 @@
+{% extends "base.html" %}
+
+{% block title %}Imbuhan Awalan peN - Master Imbuhan{% endblock %}
+
+{% block content %}
+<section class="tips-section py-5 bg-light">
+    <div class="container">
+        <!-- Page Title -->
+        <h1 class="display-4 text-primary font-weight-bold text-center">Selamat Datang ke</h1>
+        <h2 class="text-primary font-weight-bold text-center">MASTER IMBUHAN</h2>
+        <p class="text-center text-secondary">Jom Belajar!</p>
+        <hr class="my-4">
+
+        <!-- Imbuhan Awalan peN Introduction -->
+        <div class="mb-5">
+            <h3 class="text-primary">Imbuhan Awalan peN-</h3>
+            <p class="lead">
+                Terdapat enam jenis imbuhan awalan <strong>peN-</strong> iaitu <strong>pe-, pem-, pen-, peng-, penge-,</strong> dan <strong>peny-</strong>.
+                <br>
+                Biasanya imbuhan awalan <strong>peN-</strong> digunakan sebagai <u>kata nama</u>.
+            </p>
+        </div>
+
+        <!-- Table Section -->
+        <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="thead-light">
+                <tr>
+                    <th>Imbuhan</th>
+                    <th>Kegunaan</th>
+                    <th>Contoh</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pe-</td>
+                    <td>Digunakan pada kata dasar yang bermula dengan huruf:
+                    <br>
+                    l, m, n, ny, r, w</td>
+                    <td>
+                        lakon → pelakon <br>
+                        main → pemain <br>
+                        nama → penama <br>
+                        nyanyi → penyanyi <br>
+                        rawat → perawat <br>
+                        waris → pewangi
+                    </td>
+                </tr>
+                <tr>
+                    <td>pem-</td>
+                    <td>Digunakan pada kata dasar yang bermula dengan huruf:
+                    <br>
+                    b, f, p (perlu digugurkan)</td>
+                    <td>
+                        balut → pembalut <br>
+                        fitnah → pemfitnah <br>
+                        padam → pemadam
+                    </td>
+                </tr>
+                <tr>
+                    <td>pen-</td>
+                    <td>Digunakan pada kata dasar yang bermula dengan huruf:
+                    <br>
+                    c, d, j, t (perlu digugurkan)</td>
+                    <td>
+                        curi → pencuri <br>
+                        daftar → pendaftar <br>
+                        jahat → penjahat <br>
+                        terbit → penerbit
+                    </td>
+                </tr>
+                <tr>
+                    <td>peng-</td>
+                    <td>Digunakan pada kata dasar yang bermula dengan huruf:
+                    <br>
+                    a, e, i, o, u, g, h, k (perlu digugurkan)</td>
+                    <td>
+                        arah → pengarah <br>
+                        edar → pengedar <br>
+                        ikut → pengikut <br>
+                        olah → pengolah <br>
+                        ubat → pengubat <br>
+                        galas → penggalas <br>
+                        halang → penghalang <br>
+                        karang → pengarang
+                    </td>
+                </tr>
+                <tr>
+                    <td>peny-</td>
+                    <td>Digunakan pada kata dasar yang bermula dengan huruf s (perlu digugurkan)</td>
+                    <td>
+                        sapu → penyapu
+                    </td>
+                </tr>
+                <tr>
+                    <td>penge-</td>
+                    <td>Digunakan pada kata dasar yang hanya terdiri daripada satu suku kata</td>
+                    <td>
+                        cat → pengecat
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <!-- Back Link -->
+        <div class="mt-5 text-center">
+            <a href="{{ url_for('tips') }}" class="btn btn-outline-secondary btn-lg">Kembali</a>
+        </div>
+    </div>
+</section>
+{% endblock %}
